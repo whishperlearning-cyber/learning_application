@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
       designSize: const Size(360, 690), // ðŸ”¥ Base design size (Figma)
       minTextAdapt: true,
       splitScreenMode: true,
-
       builder: (context, child) {
         return MultiBlocProvider(
           providers: [
@@ -42,7 +41,7 @@ class MyApp extends StatelessWidget {
         );
       },
 
-      /// ðŸ‘‡ First screen
+      /// ðŸ‘‡ the first screen
       child: const LandingScreen(),
     );
   }
